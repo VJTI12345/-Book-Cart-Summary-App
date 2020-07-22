@@ -1,0 +1,77 @@
+.container {
+  margin-top: 10px;
+
+}
+
+.purchase-card {
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(55, 0, 0,0.8), 0 8px 50px 0 rgba(55, 0, 0, 0.2);
+  padding: 1em;
+background-color: rgb(157, 157, 226);
+border: 1px solid black;
+border-color: blueviolet;
+border-radius: 10px;
+color: black;
+font-family: cursive;
+font-weight: 700;
+}
+
+.purchase-card > .show-grid {
+  padding-bottom: 1.5em;
+}
+.item-details-button{
+  color:blue;
+}
+.item-details-button:hover {
+  outline: none;
+  color: darkblue;
+}
+
+.item-details-button:focus {
+  outline: none;
+  color: darkslateblue;
+}
+/* ok*/
+.promo-code-button{
+  color: blue;
+}
+
+.promo-code-button:hover {
+  outline: none;
+  color: darkblue;
+}
+
+.promo-code-button:focus {
+  outline: none;
+  color: darkslateblue;
+}
+
+.btn-round {
+  background-color: crimson;
+  border-color: crimson;
+  border-radius: 50px;
+  box-shadow:0 4px 8px 0 rgba(55, 0, 0,0.8), 0 5px 5px 0 rgba(55, 0, 0, 0.2) ;
+}
+.btn-round:hover {
+  background-color: rgb(78, 10, 23);
+  border-color: crimson;
+  border-radius: 50px;
+  box-shadow:0 4px 8px 0 rgba(55, 0, 0,0.8), 0 5px 5px 0 rgba(55, 0, 0, 0.2) ;
+}
+.btn-round:active {
+  background-color: rgb(78, 10, 23);
+  border-color: crimson;
+  border-radius: 50px;
+  box-shadow:0 4px 8px 0 rgba(55, 0, 0,0.8), 0 5px 5px 0 rgba(55, 0, 0, 0.2) ;
+}
+.btn-round:focused {
+  background-color: rgb(78, 10, 23);
+  border-color: crimson;
+  border-radius: 50px;
+  box-shadow:0 4px 8px 0 rgba(55, 0, 0,0.8), 0 5px 5px 0 rgba(55, 0, 0, 0.2) ;
+}
+
+.price-strike {
+  text-decoration-line: line-through;
+  color: red;
+}
